@@ -1,0 +1,11 @@
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\bin\Debug\net8.0\LibraryApp.Service.deps.json
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\bin\Debug\net8.0\LibraryApp.Service.dll
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\bin\Debug\net8.0\LibraryApp.Service.pdb
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\obj\Debug\net8.0\LibraryApp.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\obj\Debug\net8.0\LibraryApp.Service.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\obj\Debug\net8.0\LibraryApp.Service.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\obj\Debug\net8.0\LibraryApp.Service.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\obj\Debug\net8.0\LibraryApp.Service.dll
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\obj\Debug\net8.0\refint\LibraryApp.Service.dll
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\obj\Debug\net8.0\LibraryApp.Service.pdb
+C:\Users\Ivan\Desktop\PrivateLessons IS\LibraryApplication\LibraryApp.Service\obj\Debug\net8.0\ref\LibraryApp.Service.dll

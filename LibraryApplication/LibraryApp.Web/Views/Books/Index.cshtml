@@ -1,0 +1,75 @@
+﻿@model IEnumerable<LibraryApp.Domain.Models.Domain.Book>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+	<a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<div class="container">
+	<div class="row justify-content-center">
+		@foreach (var book in Model)
+		{
+			<div class="col-3 align-content-center">
+				<a asp-action="Details" asp-route-id="@book.ID" class="text-decoration-none text-black">
+					<div class="card" style="width: 18rem;">
+						<img src="@book.Image" class="card-img-top" atl="Image!" />
+						<div class="card-body">
+							<h5 class="card-title">@book.Title</h5>
+							<div class="card-text">@book.Author</div>
+							<div class="row mt-2">
+								<a asp-controller="Books" asp-action="AddBookToCart" asp-route-id="@book.ID" class="btn btn-info">Add Book To Cart!</a>
+							</div>
+							<div class="row mt-2 justify-content-between">
+								<a asp-action="Edit" asp-route-id="@book.ID" class="btn btn-success">Edit!</a>
+								<a asp-action="Delete" asp-route-id="@book.ID" class="btn btn-danger">Delete!</a>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		}
+	</div>
+</div>
+
+@* <table class="table"> *@
+@*     <thead> *@
+@*         <tr> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.Title) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.Author) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.CreatedOn) *@
+@*             </th> *@
+@*             <th></th> *@
+@*         </tr> *@
+@*     </thead> *@
+@*     <tbody> *@
+@* @foreach (var item in Model) { *@
+@*         <tr> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.Title) *@
+@*             </td> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.Author) *@
+@*             </td> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.CreatedOn) *@
+@*             </td> *@
+@*             <td> *@
+@*                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> | *@
+@*                 <a asp-action="Details" asp-route-id="@item.ID">Details</a> | *@
+@*                 <a asp-action="Delete" asp-route-id="@item.ID">Delete</a> *@
+@*             </td> *@
+@*         </tr> *@
+@* } *@
+@*     </tbody> *@
+@* </table> *@
